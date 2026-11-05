@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Virtual Environments
+penv/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large backups and outputs
+vehicle_status_output.csv
+*.full
+*.uncompressed
+uvicorn
+
+# Unused auxiliary benchmark splits
+data_production_KLIN/*FD002*
+data_production_KLIN/*FD003*
+data_production_KLIN/*FD004*
+
+# Temporary files
+*copy*
+*.tmp
